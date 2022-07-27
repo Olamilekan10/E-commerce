@@ -348,6 +348,7 @@ footer .copyright a:hover{
 
 #blog-container .post h3 {
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 #blog-container .post:hover h3 {
