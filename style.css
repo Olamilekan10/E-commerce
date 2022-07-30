@@ -355,3 +355,14 @@ footer .copyright a:hover{
     color: #fb774b;
 }
 
+/* cart */
+
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#cart-container table thead {
+    font-weight: 700;
+}
