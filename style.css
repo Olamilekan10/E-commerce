@@ -366,3 +366,10 @@ footer .copyright a:hover{
 #cart-container table thead {
     font-weight: 700;
 }
+
+#cart-container table thead td{
+    background: #fb774b;
+    color: #fff;
+    border: none;
+    padding: 6px 0;
+}
