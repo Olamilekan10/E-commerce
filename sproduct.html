@@ -93,13 +93,13 @@
                             <img src="images/sprod/sp2.png" width="100%" class="small-img" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="images/sprod/sp2.png" width="100%" class="small-img" alt="">
+                            <img src="images/sprod/sp2.png" width="100%" class="small-img" onclick="arsh()" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="images/sprod/sp4.png" width="100%" class="small-img" alt="">
+                            <img src="images/sprod/sp4.png" width="100%" class="small-img" onclick="green()" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="images/sprod/sp5.png" width="100%" class="small-img" alt="">
+                            <img src="images/sprod/sp5.png" width="100%" class="small-img" onclick="red()" alt="">
                         </div>
                     </div>
                 </div>
@@ -254,23 +254,29 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-<!-- 
+
         <script>
             let mainImg = document.getElementById('mainImg');
             let smallImg = document.getElementsByClassName('.small-img');
-
-            smallImg[0].onclick = function() {
-                mainImg.src = smallImg[0].src;
-            }
-            smallImg[1].onclick = function() {
-                mainImg.src = smallImg[1].src;
-            }
-            smallImg[2].onclick = function() {
-                mainImg.src = smallImg[2].src;
-            }
-            smallImg[3].onclick = function() {
-                mainImg.src = smallImg[3].src;
-            }
-        </script> -->
+            let h =1;
+             let a = 2;
+             let n = 3;
+             
+           const red = () => {
+            if (h==1) {
+                mainImg.src="images/sprod/sp5.png"   
+             }
+           }
+         const green =() => {
+            if (a==2) {
+                mainImg.src="images/sprod/sp4.png"   
+             }
+           }
+           const arsh = () => {
+            if (n==3) {
+                mainImg.src="images/sprod/sp2.png"   
+             }
+           }
+        </script> 
     </body>
 </html>
