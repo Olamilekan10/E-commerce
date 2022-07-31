@@ -408,7 +408,8 @@ footer .copyright a:hover{
     border: 1px solid #b6b3b3;
 }
 
-#card-bottom .coupon h5 {
+#card-bottom .coupon h5,
+#card-bottom .total h5 {
     background: #fb774b;
     color: #fff;
     border: none;
@@ -424,8 +425,4 @@ footer .copyright a:hover{
 #card-bottom .coupon input {
     height: 44px;
     margin: 0 0 20px 12px;
-}
-
-#card-bottom .coupon input{
-
 }
